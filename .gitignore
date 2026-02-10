@@ -1,0 +1,16 @@
+# Ignore 
+generated CSV reports
+*.csv
+
+
+
+# Ignore 
+log files
+logs/
+*.log
+
+
+
+#Ignore 
+temp files
+*.tmp
