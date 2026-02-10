@@ -61,9 +61,9 @@ Then just type `atmstmt`, `upistmt`, or `impsstmt` to generate reports!
 
 ### Automated Daily Reports
 
-The script runs automatically at 6 AM every day via cron:
+The script runs automatically at 00:05 AM every day via cron:
 ```bash
-0 6 * * * /home/finadm/ATM_STMT/scripts/daily_reports.sh
+5 0 * * * /home/finadm/ATM_STMT/scripts/daily_reports.sh
 ```
 
 ## What I Learned
